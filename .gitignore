@@ -1,0 +1,7 @@
+*.java
+*.apk
+main.exe
+/moonlight*
+converted
+*apk.cache
+android.jks

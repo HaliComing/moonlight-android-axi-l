@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff5f6f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="#fff5f6f8" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="8.0dip">
+        <include layout="@layout/include_keyboard1" />
+        <include layout="@layout/include_keyboard2" />
+        <include layout="@layout/include_keyboard3" />
+        <include layout="@layout/include_keyboard4" />
+        <include layout="@layout/include_keyboard5" />
+        <include layout="@layout/include_keyboard6" />
+    </LinearLayout>
+</LinearLayout>
